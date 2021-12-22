@@ -1,7 +1,8 @@
 "use strict";
 
 {
-  document.querySelector('.header-btn').addEventListener('click', function(){
-    document.querySelector('.header-list').classList.toggle('#mask');
+  const humbergerMenuBtn = document.querySelector('.header-btn');
+  humbergerMenuBtn.addEventListener('click', function(){
+    document.getElementById('header').classList.toggle('open');
 });
 }
